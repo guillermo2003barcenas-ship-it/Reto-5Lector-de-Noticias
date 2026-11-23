@@ -1,0 +1,119 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.encabezado {
+    background: linear-gradient(135deg, #0f172a, #1d4ed8);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.encabezado p {
+    margin-top: 10px;
+    color: #dbeafe;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Bienvenida */
+.bienvenida {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bienvenida h2 {
+    font-size: 28px;
+    color: #1e3a8a;
+}
+
+.bienvenida p {
+    color: #64748b;
+}
+
+/* Botón actualizar */
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Mensajes */
+#mensaje {
+    text-align: center;
+    color: #475569;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Tarjetas de noticias */
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta h3 {
+    color: #1d4ed8;
+    margin-top: 0;
+}
+
+.tarjeta p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+.tarjeta a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tarjeta a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
